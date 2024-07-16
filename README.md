@@ -1,8 +1,8 @@
 # Source Cast
 
-Welcome to SourceCast!
+<h3>Welcome to SourceCast!</h3>
 
-SourceCast is the ultimate livestreaming platform for developers. Here, you can share your projects, teach yourself new technologies, learn from other devs and build an amazing community.
+<p>SourceCast is the ultimate livestreaming platform for developers. Here, you can share your projects, teach yourself new technologies, learn from other devs and build an amazing community.</p>
 
 ### [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
 
