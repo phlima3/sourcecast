@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "ngrok http --domain=lasting-parakeet-capital.ngrok-free.app 3000",
+    "start:both": "concurrently \"npm run dev\" \"npm run server\""
   },
   "dependencies": {
     "@clerk/nextjs": "^5.2.4",
@@ -28,6 +30,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "concurrently": "^8.2.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
