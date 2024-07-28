@@ -20,7 +20,7 @@ export const Toggle = () => {
           </Hint>
         </div>
       ) : (
-        <div className="p-3 pl-6 mb-2 flex items-center w-full">
+        <div className="p-3 pl-6 mb-2 flex items-center w-full transition-all ease-in-out">
           <p className="font-semibold text-primary">For you</p>
 
           <Hint label={label} side="right" asChild>
